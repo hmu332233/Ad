@@ -19,7 +19,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
-
-
-Cross-Origin-Resource-Policy: cross-origin
+module.exports = nextConfig;
