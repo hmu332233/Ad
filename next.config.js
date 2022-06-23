@@ -12,7 +12,7 @@ const nextConfig = {
     return [
       {
         // Apply these headers to all routes in your application.
-        source: '/:path*',
+        source: '/',
         headers: securityHeaders,
       },
     ]
@@ -20,3 +20,6 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+
+Cross-Origin-Resource-Policy: cross-origin
