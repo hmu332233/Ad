@@ -4,6 +4,19 @@ const nextConfig = {
   async headers() {
     return [
       {
+        "source": "https://t1.daumcdn.net/kas/static/ba.min.js",
+        "headers": [
+          {
+            "key": "access-control-allow-origin",
+            "value": "*"
+          },
+          {
+            "key": "cross-origin-resource-policy",
+            "value": "cross-origin"
+          }
+        ]
+      },
+      {
         "source": "/(.*)",
         "headers": [
           {
