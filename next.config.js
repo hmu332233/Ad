@@ -16,7 +16,7 @@ const nextConfig = {
           },
           {
             "key": "cross-origin-embedder-policy",
-            "value": "unsafe-none"
+            "value": "require-corp"
           }
         ]
       }
