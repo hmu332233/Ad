@@ -9,6 +9,10 @@ const nextConfig = {
           {
             "key": "access-control-allow-origin",
             "value": "*"
+          },
+          {
+            "key": "cross-origin-resource-policy",
+            "value": "cross-origin"
           }
         ]
       }
