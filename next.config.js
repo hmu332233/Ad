@@ -13,7 +13,12 @@ const nextConfig = {
           {
             "key": "cross-origin-resource-policy",
             "value": "cross-origin"
-          }
+          },
+          {
+            "key": "cross-origin-embedder-policy",
+            "value": "require-corp"
+          },
+
         ]
       }
     ]
