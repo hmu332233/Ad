@@ -4,7 +4,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        "source": "/(.*)",
+        "source": "/",
         "headers": [
           {
             "key": "access-control-allow-origin",
@@ -18,7 +18,6 @@ const nextConfig = {
             "key": "cross-origin-embedder-policy",
             "value": "require-corp"
           },
-
         ]
       }
     ]
